@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+unstructured = "*"
+pypdf = "*"
+chromadb = "*"
+tiktoken = "*"
+google-auth = "*"
+google-auth-oauthlib = "*"
+google-auth-httplib2 = "*"
+google-api-python-client = "*"
+pydrive2 = "*"
+langchain = "*"
+langchain-openai = "*"
+openai = "*"
+langchain-community = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
